@@ -1,0 +1,27 @@
+{
+  "name": "@alexandreguertin/adonis-firebase",
+  "version": "1.0.6",
+  "description": "A simple Firebase provider for Adonis with an authentication scheme compatible with Firebase authentication.",
+  "author": "Alexandre Guertin <alexandreguertin@icloud.com>",
+  "license": "MIT",
+  "keywords": [
+    "adonis",
+    "firebase",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexandreguertin/adonis-firebase"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.5.0"
+  },
+  "peerDependencies": {
+    "@adonisjs/auth": "^3.1.0",
+    "@adonisjs/fold": "^4.0.9"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
